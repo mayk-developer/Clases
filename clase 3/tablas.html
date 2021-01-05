@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tablas</title>
+	<style>
+		table, td, th{
+		border:solid black;
+	}
+	</style>
+</head>
+<body>
+	<header><h1>Tablas</h1></header>
+
+	<main>
+		<section>
+			<h2>Estructura básica de una tabla</h2>
+
+			<table>
+				<tr>
+					<th>Curso</th>
+					<th>Comision</th>
+				</tr>
+				<tr>
+					<td colspan="2">Java</td>
+				</tr>
+				<tr>
+					<td>Python</td>
+					<td rowspan="2">2000</td>
+				</tr>					
+				<tr>
+					<td>PHP</td>
+				</tr>
+				
+			</table>
+
+			<table>
+				<tr>
+					<td rowspan="3">Zona zur</td>
+					<td>Avellanada</td>
+					<td>Lanús</td>
+				</tr>
+				<tr>
+					<td colspan="2">Banfield</td>
+				</tr>
+				<tr>
+					<td>Quilmes</td>
+					<td>Berazategui</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Zona Oeste</td>
+					<td>Morón</td>
+					<td>Merlo</td>
+				</tr>
+				<tr>
+					<td>Moreno</td>
+					<td>Haedo</td>
+				</tr>
+			</table>
+
+		</section>
+
+		<section>
+			<h3>Estructura completa de una tabla</h3>
+			<table>
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Apellido</th>						
+					</tr>
+					
+				</thead>				
+				<tbody>
+					<tr>
+						<td>Pepe</td>
+						<td>Perez</td>
+					</tr>
+					<tr>
+						<td>Maria</td>
+						<td>Lopez</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+
+			</table>
+		</section>
+
+	</main>
+
+
+
+	
+</body>
+</html>
